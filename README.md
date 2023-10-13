@@ -15,11 +15,27 @@ To get started with this project, follow these steps:
 4. Deploy a WordPress website automatically.
 
 ## Project Structure
-
-- `/ansible`: Contains Ansible playbooks and roles.
-- `/docs`: Project documentation and guides.
-- `/examples`: Code examples and templates.
-- `/scripts`: Helpful scripts for setup and automation.
+```
+├── roles/
+│   ├── wordpress/
+│   │   ├── vars/
+│   │   │   ├── main.yml
+│   │   ├── README.md
+│   │   ├── tasks/
+│   │   │   ├── main.yml
+│   │   ├── templates/
+│   │   │   ├── wordpress.conf.j2
+│   │   ├── handlers/
+│   │   │   ├── main.yml
+│   │   ├── files/
+│   │   ├── defaults/
+│   │   ├── meta/
+│   │   ├── tests/
+│   │   ├── vars/
+├── README.md
+├── requirements.yml
+├── wordpress.yml
+```
 
 ## Resources
 
